@@ -1,5 +1,5 @@
 {
-  "name": "bitrix24-sequelize-models",
+  "name": "tunneled-sequelize-auto",
   "version": "1.0.0",
   "main": "dist/index.js",
   "license": "MIT",
@@ -16,6 +16,17 @@
   "bin": {
     "generate-models": "./dist/index.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/artemquel/tunneled-sequelize-auto"
+  },
+  "keywords": [
+    "sequelize",
+    "auto",
+    "generate",
+    "bitrix",
+    "tunnel"
+  ],
   "devDependencies": {
     "@types/yargs": "^17.0.10",
     "typescript": "^4.6.4"
